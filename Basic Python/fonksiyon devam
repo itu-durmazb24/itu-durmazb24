@@ -1,0 +1,7 @@
+
+def sayi(x):
+    a=0
+    for i in str(x):
+        a=a+int(i)
+    return a
+print(sayi(input("Sayi:")))
