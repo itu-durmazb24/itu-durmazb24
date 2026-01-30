@@ -1,0 +1,22 @@
+website = "http://www.sadikturan.com"
+course = "Python Kursu: Baştan Sona Python Programlama Rehberiniz (40 saat)"
+
+# 1- 'course' karakter dizisinde kaç karakter bulunmaktadır?
+print(len(course))
+
+# 2- 'website' içinden www karakterlerini alın.
+print(website[7:10])
+
+# 3- 'website' içinden com karakterlerinizi alınız.
+print(website[-3:])
+
+# 4- 'course' içinden ilk 15 ve son 15 karakterlerini alın.
+print(course[:15]+ ' '+ course[-15:])
+
+# 5- 'course' ifadesindeki karakterleri tersten yazdırınız.
+print(course[::-1])
+
+# 6- "Hello world" ifadesindeki w harfini 'W' ile değiştirin.
+a="Hello world"
+a= a[0:6] + "W" + a[7:]
+print(a)
